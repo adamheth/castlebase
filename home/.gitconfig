@@ -1,0 +1,15 @@
+[user]
+	name = Nathan Stilwell
+	email = nathanstilwell@gmail.com
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[alias]
+	pretty = log --graph --oneline --decorate
+	stat = status -sb
+	st = status
+	cm = commit
+	ci = commit -a

@@ -1,0 +1,38 @@
+#
+#	Prettier Colors
+#
+export CLICOLOR=1
+export LSCOLORS=ExFxExExBxExExExExFxFx
+
+#
+#	Aliases
+#
+
+#	Directory list
+alias l='ls -lp'
+alias ll='ls -alhF'
+
+#	SSH connections
+alias p='ssh nathan@pioneer'
+alias urn='ssh nathanstilwell@enif.dreamhost.com'
+alias web1='ssh nathan@web1.blueworldinc.com'
+
+alias minify='java -jar /Users/nathanstilwell/tools/yuicompressor-2.4.6.jar'
+
+#	Editor (on Mac Only)
+alias komodo='open -a Komodo\ Edit'
+alias ko='komodo'
+alias node='nocorrect node'
+
+#
+#	FUNctions
+#
+
+function shrink(){
+	ALL=all.min;
+	#concat all files in dir
+	cat * > all;
+
+	#minify stuff
+	minify all -o $ALL;
+}
