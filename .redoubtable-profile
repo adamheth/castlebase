@@ -1,0 +1,13 @@
+#
+#	Hand Minification
+#
+alias minify='java -jar /Users/nathanstilwell/tools/yuicompressor-2.4.6.jar'
+
+function shrink(){
+	ALL=all.min;
+	#concat all files in dir
+	cat * > all;
+
+	#minify stuff
+	minify all -o $ALL;
+}
