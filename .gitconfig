@@ -1,0 +1,27 @@
+[user]
+	name = Nathan Stilwell
+	email = <EMAIL>
+	
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+
+[core]
+    excludesfile = /Users/nstilwell/.gitignore
+
+[push]
+    default = tracking
+
+[alias]
+	pretty = log --graph --oneline --decorate
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	stat = status -sb
+	st = status
+	ci = commit
+
+[github]
+	user = nathastilwell
+	token = <TOKEN>
