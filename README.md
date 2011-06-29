@@ -4,4 +4,4 @@ I got this idea from [Mark Wunsch](https://github.com/mwunsch), who has a repo s
 
 So I'm going to keep this pretty dumb, to use `git clone` into `.castlebase` and then sym link in your `~`.
 
-This is intented for personal use, but feel free to copy.r
+This is intented for personal use, but feel free to copy.
