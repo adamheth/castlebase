@@ -1,6 +1,20 @@
 #
 #	Prettier Colors
 #
+#	Color Codes:
+#-----------------------------
+#	a = black
+#	b = red
+#	c = green
+#	d = brown
+#	e = blue
+#	f = magenta
+#	g = cyan
+#	h = light gray
+#	x = default
+#
+#==============================
+
 export CLICOLOR=1
 export LSCOLORS=fxcxgxgxBxgxgxgxgxFxFx
 
