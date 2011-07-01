@@ -18,6 +18,7 @@
 [alias]
 	pretty = log --graph --oneline --decorate
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	mine = log --author 'Nathan Stilwell'
 	stat = status -sb
 	st = status
 	ci = commit
