@@ -35,7 +35,6 @@ alias ack='nocorrect ack'
 #
 #	Shortcuts
 #
-alias urn='ssh nathanstilwell@enif.dreamhost.com'
 alias komodo='open -a Komodo\ Edit'
 alias ko='komodo'
 
