@@ -25,6 +25,8 @@ export LSCOLORS=fxcxgxgxBxgxgxgxgxFxFx
 #	Directory list
 alias l='ls -lp'
 alias ll='ls -alhF'
+alias ....="cd ../../.."
+alias .....="cd ../../../.."	# We're going to need a function to do this eventually
 
 #
 #	NoCorrect
