@@ -21,6 +21,9 @@
 	mine = log --author 'Nathan Stilwell'
 	recent = log -p -n 5
 	st = status -sb
+	it = grep -n
+	co = checkout
+	ci = commit -m
 
 [github]
 	user = nathastilwell
