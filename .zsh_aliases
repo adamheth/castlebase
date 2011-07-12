@@ -33,6 +33,13 @@ alias .....="cd ../../../.."	# We're going to need a function to do this eventua
 #
 alias node='nocorrect node'
 alias ack='nocorrect ack'
+alias hg='nocorrect hg'
+
+#
+#	To install Mercurial
+# 	--------------------
+#	easy_install mercurial <-- easy install if for python packages, you probably have it already
+#
 
 #
 #	Shortcuts
