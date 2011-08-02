@@ -59,26 +59,6 @@ fi
 #	FUNctions
 #
 
-# Don't want to type 'git' anymore
-
-function log {
-	if [[ -d .git ]]; then
-		git log $@
-	fi
-}
-
-function dif {
-	if [[ -d .git ]]; then
-		git diff $@
-	fi
-}
-
-function ci {
-	if [[ -d .git ]]; then
-		git commit -m $@
-	fi
-}
-
 #	Appended Aliases (added from the command line)
 # ------------------------------------------------
 alias h5='cd ~/Sites/html5-boilerplate/build; ./createproject.sh; cd ...'
