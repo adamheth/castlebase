@@ -24,6 +24,7 @@
 	it = grep -n
 	co = checkout
 	ci = commit -m
+	df = diff
 
 [github]
 	user = nathastilwell
