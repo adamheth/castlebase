@@ -34,6 +34,7 @@ alias .....="cd ../../../.."	# We're going to need a function to do this eventua
 alias node='nocorrect node'
 alias ack='nocorrect ack'
 alias hg='nocorrect hg'
+alias npm='nocorrect npm'
 
 #
 #	To install Mercurial
