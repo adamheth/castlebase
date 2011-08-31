@@ -19,7 +19,8 @@ export CLICOLOR=1
 export LSCOLORS=fxcxgxgxBxgxgxgxgxFxFx
 
 # prompt
-export PS1="\e[0;31m\\u\e[m@\e[0;31m\\H\e[m in \e[0;36m[\\w]\e[m> "
+# For more colors : http://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/
+export PS1="\e[0;33m\\u\e[m@\e[0;31m\\H\e[m in \e[0;36m[\\w]\e[m> "
 
 #
 # Aliases
