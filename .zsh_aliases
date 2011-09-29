@@ -29,6 +29,20 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."	# We're going to need a function to do this eventually
 
 #
+#   FUNctions
+#
+
+# grab a new file
+function poke () {
+    touch $1
+    if [[ -e $1 ]]; then
+        kod $1
+    else
+        echo "Couldn't create $1, sorry. \n"
+    fi
+}
+
+#
 #	NoCorrect
 #
 alias node='nocorrect node'
@@ -42,23 +56,8 @@ alias hg='nocorrect hg'
 #
 
 #
-#	Shortcuts
-#
-alias komodo='open -a Komodo\ Edit'
-alias ko='komodo'
-
-
-#
 #	Load System Specific Aliases
 #
 if [ -f ~/.profile ]; then
 	. ~/.profile
 fi
-
-#
-#	FUNctions
-#
-
-#	Appended Aliases (added from the command line)
-# ------------------------------------------------
-alias h5='cd ~/Sites/html5-boilerplate/build; ./createproject.sh; cd ...'
