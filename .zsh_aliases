@@ -48,6 +48,7 @@ function poke () {
 alias node='nocorrect node'
 alias ack='nocorrect ack'
 alias hg='nocorrect hg'
+alias npm='nocorrect npm'
 
 #
 #	To install Mercurial
