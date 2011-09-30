@@ -27,6 +27,7 @@ alias l='ls -lp'
 alias ll='ls -alhF'
 alias ....="cd ../../.."
 alias .....="cd ../../../.."	# We're going to need a function to do this eventually
+alias f="find . -name"
 
 #
 #	NoCorrect
@@ -55,10 +56,6 @@ alias ko='komodo'
 if [ -f ~/.profile ]; then
 	. ~/.profile
 fi
-
-#
-#	FUNctions
-#
 
 #	Appended Aliases (added from the command line)
 # ------------------------------------------------
