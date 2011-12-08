@@ -1,0 +1,31 @@
+#!/bin/bash
+
+
+# Attributes
+bold="\033[1m";
+bold_off="\033[22m";
+blink="\033[5m";
+blink_off="\033[25m";
+
+# Text colors
+black="\033[30m";
+red="\033[31m";
+green="\033[32m";
+brown="\033[33m";
+blue="\033[34m";
+magenta="\033[35m";
+cyan="\033[36m";
+white="\033[37";
+
+# Background colors
+b_black="\033[40m";
+b_red="\033[41m";
+b_green="\033[42m";
+b_brown="\033[43m";
+b_blue="\033[44m";
+b_magenta="\033[45m";
+b_cyan="\033[46m";
+b_white="\033[47m";
+
+# Resets all
+stop="\033[0m";
