@@ -27,6 +27,7 @@ alias l='ls -lp'
 alias ll='ls -alhF'
 alias ....="cd ../../.."
 alias .....="cd ../../../.."	# We're going to need a function to do this eventually
+alias f="find . -name"
 
 #
 #   FUNctions
@@ -62,3 +63,4 @@ alias npm='nocorrect npm'
 if [ -f ~/.profile ]; then
 	. ~/.profile
 fi
+
