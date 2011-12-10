@@ -1,26 +1,8 @@
 #
-#	Prettier Colors
-#
-#	Color Codes:
-#-----------------------------
-#	a = black
-#	b = red
-#	c = green
-#	d = brown
-#	e = blue
-#	f = magenta
-#	g = cyan
-#	h = light gray
-#	x = default
-#
-#==============================
-
-export CLICOLOR=1
-export LSCOLORS=fxcxgxgxBxgxgxgxgxFxFx
-
-#
 #	Aliases
 #
+
+source ~/.castlebase/.colors;
 
 #	Directory list
 alias l='ls -lp'
@@ -46,6 +28,7 @@ function poke () {
 #
 #	NoCorrect
 #
+
 alias node='nocorrect node'
 alias ack='nocorrect ack'
 alias hg='nocorrect hg'
@@ -63,4 +46,3 @@ alias npm='nocorrect npm'
 if [ -f ~/.profile ]; then
 	. ~/.profile
 fi
-
