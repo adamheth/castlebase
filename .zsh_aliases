@@ -10,6 +10,7 @@ alias ll='ls -alhF'
 alias ....="cd ../../.."
 alias .....="cd ../../../.."	# We're going to need a function to do this eventually
 alias f="find . -name"
+alias copy="pbcopy"
 
 #
 #   FUNctions
@@ -17,12 +18,32 @@ alias f="find . -name"
 
 # grab a new file
 function poke () {
-    touch $1
-    if [[ -e $1 ]]; then
-        kod $1
-    else
-        echo "Couldn't create $1, sorry. \n"
-    fi
+  touch $1
+  if [[ -e $1 ]]; then
+    kod $1
+  else
+    echo "Couldn't create $1, sorry. \n"
+  fi
+}
+
+function iso-shadow () {
+  if [ $# -ne 2 ]; then
+    echo "usage:  `basename $0` ${bold}pixels color${bold_off}";
+    return;
+  fi
+
+  times=$1;
+  color=$2
+  output="-1px 1px $color";
+
+  i=1;
+  while [ $i -ne $times ]; do
+    output="${output}, -${i}px ${i}px $color";
+
+    i=$[$i+1]; # increment
+  done
+
+  echo $output | copy;
 }
 
 #
